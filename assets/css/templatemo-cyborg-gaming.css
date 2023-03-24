@@ -376,6 +376,50 @@ Header Style
   background-color: transparent;
 }
 
+.dropdown {
+  display: inline-block;
+  position: relative;
+}
+
+.dropdown button{
+  text-align: center;
+  background:#27292a;
+  height: 46px;
+  border-radius: 10px;
+  border: none;
+  color: #666;
+  font-size: 14px;
+  padding: 0px 20px 0px 20px;
+}
+
+.dropdown:hover button{
+	color: #00A4BD;
+}
+
+.dropdown-content {
+  text-align: center;
+  display: none;
+  position: absolute;
+  width: 100%;
+  overflow: auto;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown-content a {
+  text-align: center;
+  background:#27292a;
+  display: block;
+  color: #666;
+  padding: 2px 20px 2px 20px;
+  text-decoration: none;
+}
+.dropdown-content a:hover {
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #00A4BD;
+}
+
 .header-area .main-nav #search {
   position: relative;
 }
