@@ -1,14 +1,12 @@
 /*
 
-TemplateMo 579 Cyborg Gaming
-
-https://templatemo.com/tm-579-cyborg-gaming
+Aniflame
 
 */
 
-/* ---------------------------------------------
+/* --/--/--/--/--/--/--/--/--/--/--/--
 Table of contents
-------------------------------------------------
+--/--/--/--/--/--/--/--/--/--/--/--
 01. font & reset css
 02. reset
 03. global styles
@@ -19,7 +17,7 @@ Table of contents
 08. contact
 09. footer
 
---------------------------------------------- */
+--/--/--/--/--/--/--/--/--/--/--/--/- */
 /* 
 ---------------------------------------------
 font & reset css
@@ -514,7 +512,7 @@ Header Style
 
 .header-area .main-nav .nav li:last-child a {
   background-color: #27292a;
-  padding: 8px 10px 8px 20px;
+  padding: 5px 5px 3px 5px;;
   border-radius: 23px;
 }
 
