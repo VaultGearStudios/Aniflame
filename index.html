@@ -3,9 +3,6 @@
 
 <head>
 
-	<script>
-	</script>
-
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description"
@@ -16,7 +13,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
     rel="stylesheet">
 
-  <title>Aniflame</title>
+  <title>Streaming On Aniflame</title>
   <link rel="icon" type="image/x-icon" href="/assets/images/aniflame.logo.png">
 
   <!-- Bootstrap core CSS -->
@@ -86,9 +83,25 @@
               <!-- Don't Need atm
 												<li><a href="streams.html">Streams</a></li>
 												-->
-              <li><a href="profile.html">
-				  <i class="fa-solid fa-bars" style="color: #666;"></i>
+              <li>
+				  <button id="sidebar-toggle"><i class="fa-solid fa-bars" style="color: #666;"></i></button>
+				  	<!-- Create the sidebar content -->
+					<div id="sidebar">
+						<button id="sidebar-close">&times;</button>
+				  	<h2>Settings</h2>
+				  	<p>Here are your settings:</p>
+				  	<ul>
+				    <li>Setting 1</li>
+				    <li>Setting 2</li>
+				    <li>Setting 3</li>
+				  </ul>
+				</div>
             </ul>
+
+<!-- Add a semi-transparent overlay to cover the rest of the page when the sidebar is open -->
+<div id="overlay"></div>
+
+			  
             <a class='menu-trigger'>
               <span>Menu</span>
             </a>
@@ -207,7 +220,7 @@
 
 
         <!-- Scripts -->
-        <!-- Bootstrap core JavaScript -->
+      
         <script src="vendor/jquery/jquery.min.js"></script>
         <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
         <script src="assets/js/isotope.min.js"></script>
@@ -216,6 +229,7 @@
         <script src="assets/js/popup.js"></script>
         <script src="assets/js/custom.js"></script>
         <script src="assets/js/Search.js"></script>
+		<script src="assets/js/settings.js"></script>
 
 </body>
 

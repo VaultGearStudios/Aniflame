@@ -1,4 +1,3 @@
-
 var searchV = document.getElementById("search").innerHTML;
 
 let sEngA = ['9Anime','AnimeFox','Animepahe','BiliBili','Crunchyroll','Enime','GogoAnime','Zoro'];
