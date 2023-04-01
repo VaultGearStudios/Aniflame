@@ -15,6 +15,8 @@ sidebarClose.addEventListener('click', function() {
 });
 
 // Close the sidebar when the user clicks anywhere outside it
-overlay.addEventListener('click', function() {
-  body.classList.remove('open');
+overlay.addEventListener('click', function(event) {
+  if (event.target === overlay) {
+    body.classList.remove('open');
+  }
 });
